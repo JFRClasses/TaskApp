@@ -24,7 +24,7 @@ fun TaskBox(
 ) {
     Box(
         modifier = Modifier
-            .size(105.dp)
+            .size(95.dp)
             .background(color, shape = RoundedCornerShape(12.dp)),
         contentAlignment = Alignment.Center
     ) {
@@ -37,7 +37,7 @@ fun TaskBox(
                 color = Color.White,
                 style = MaterialTheme.typography.headlineSmall
             )
-            Text(text = title, color = Color.White, style = MaterialTheme.typography.titleSmall)
+            Text(text = title, color = Color.White, style = MaterialTheme.typography.bodyMedium)
         }
     }
 }
